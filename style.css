@@ -1,0 +1,96 @@
+
+
+body {
+    background-color: #06111c;
+}
+
+.div1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  background-color: red;
+  display: flex;
+  position: relative;
+  animation-timing-function: ease;
+  animation-name: cube;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes cube {
+   0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+.div2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  background-color: blue;
+  display: flex;
+  position: relative;
+  left: 500px;
+  animation-timing-function: ease;
+  animation-name: second;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes second {
+   0%  {background-color: blue;}
+  25%  {background-color: yellow;}
+  50%  {background-color: red;}
+  75%  {background-color: green;}
+  100% {background-color: red;}
+}
+
+.div3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  background-color: green;
+  display: flex;
+  position: sticky;
+  left: 800px;
+  animation-timing-function: ease;
+  animation-name: third;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+
+}
+
+@keyframes third {
+   0%  {background-color: green; left: 800px; }
+  25%  {background-color: yellow; left: 500px;}
+  50%  {background-color: red; left: 1000px;}
+  75%  {background-color: blue; left: 700px;}
+  100% {background-color: red; left: 800px;}
+}
+
+.tatev {
+    color: red;
+    border: 1px solid red;
+    border-collapse: collapse;
+    width: 150px;
+    height: 100px;
+    border-radius: 70px;
+    position: relative;
+    text-align: center;
+    animation-name: Tatev;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+@keyframes Tatev {
+   0%   {background-color:red; left:100px; top:100px;}
+  25%  {background-color:yellow; left:200px; top:100px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:100px; top:200px;}
+  100% {background-color:red; left:100px; top:100px;}
+
